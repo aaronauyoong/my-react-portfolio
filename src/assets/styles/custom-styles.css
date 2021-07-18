@@ -1,0 +1,16 @@
+:root {
+    /* Main Colour Scheme generated from: https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c */
+    --lavender-blush: #F7EBEC;
+    --thistle: #DDBDD5;
+    --glossy-grape: #AC9FBB;
+    --black-coral: #59656F;
+    --raisin-black: #1D1E2C;
+}
+
+main {
+    background: var(--lavender-blush);
+}
+
+a {
+    text-decoration: none;
+}

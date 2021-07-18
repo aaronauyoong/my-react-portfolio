@@ -1,4 +1,7 @@
 import React from 'react';
+import "../assets/styles/about.css";
+import "../assets/styles/custom-styles.css";
+
 
 function About() {
     return (

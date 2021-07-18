@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
+import "./assets/styles/custom-styles.css";
 
 
 function App() {

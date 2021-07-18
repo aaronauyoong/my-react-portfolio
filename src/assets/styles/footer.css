@@ -1,0 +1,59 @@
+:root {
+    /* Main Colour Scheme generated from: https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c */
+    --lavender-blush: #F7EBEC;
+    --thistle: #DDBDD5;
+    --glossy-grape: #AC9FBB;
+    --black-coral: #59656F;
+    --raisin-black: #1D1E2C;
+}
+
+h2, p, a {
+    text-align: center;
+}
+
+a {
+    color: var(--lavender-blush);
+}
+
+.footer {
+    display: flex;
+    background-color: var(--thistle);
+    color: var(--raisin-black);
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid var(--raisin-black) 2px;
+    margin: 10px;
+}
+
+.footer-content {
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact-btn {
+    background-color: var(--raisin-black);
+    color: var(--lavender-blush);
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-btn:hover{
+    color: var(--lavender-blush);
+    cursor: pointer;
+}
+
+.credits {
+    padding: 10px;
+    justify-content: flex-end;    
+    font-size: smaller;
+    font-style: italic;
+}
