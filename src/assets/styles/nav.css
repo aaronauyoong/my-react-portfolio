@@ -10,4 +10,19 @@
 .navbar {
     background-color: var(--black-coral);
     color: var(--lavender-blush);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    background-color: var(--black-coral);
+    color: var(--lavender-blush);
+    text-decoration: none;
+    margin: 5px;
+    padding: 20px;
+}
+
+.nav-btn:hover{
+    color: var(--lavender-blush);
+    cursor: pointer;
 }

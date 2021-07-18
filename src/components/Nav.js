@@ -6,7 +6,10 @@ import "../assets/styles/custom-styles.css";
 function Nav() {
     return (
         <section class="navbar">
-            This is the Navigation Section.
+            <a href="#about" class="nav-btn">About</a>
+            <a href="#portfolio" class="nav-btn">Portfolio</a>
+            <a href="#contact" class="nav-btn">Contact</a>
+            <a href="#resume" class="nav-btn">Resume</a>
         </section>
     )
 }
