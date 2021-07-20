@@ -10,6 +10,19 @@
 main {
 	background: var(--lavender-blush);
 	padding: 20px;
+	animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		/* transform: translateY(-10px); */
+	}
+
+	to {
+		opacity: 1;
+		/* transform: translateY(10px); */
+	}
 }
 
 a {
@@ -17,47 +30,46 @@ a {
 }
 
 .landing-page {
-	display: inline-block;
-	background-image: url("../images/homepage-webdev.svg");
-    height: 100vh;
+	/* background-image: url("../images/homepage-webdev.svg"); */
 	background-repeat: no-repeat;
-    align-content: end;
-
+	align-content: end;
 }
+
 .hello-world {
 	display: flex;
 	width: fit-content;
-	padding: 10px;
+	padding: 30px;
+	justify-content: center;
+	align-self: center;
+	align-content: center;
+}
+
+.hello-world h2 {
+	font-size: 50px;
 }
 
 .home-myself {
 	display: flex;
-	padding: 10px;
+	flex-wrap: wrap;
+	padding: 30px;
 }
 
-/* Animation */
-.anim-typewriter {
-	animation: typewriter 4s steps(44) 1s 1 normal both,
-		blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter {
-	from {
-		width: 0;
-	}
-	to {
-		width: 24em;
-	}
-}
-@keyframes blinkTextCursor {
-	from {
-		border-right-color: rgba(255, 255, 255, 0.75);
-	}
-	to {
-		border-right-color: transparent;
-	}
+.myself-text {
+	font-size: 70px;
 }
 
-.typewriter h3 {
+.home-image {
+	display: flex;
+	padding: 30px;
+}
+
+.home-image img {
+	width: 100%;
+	max-width: 100vh;
+	height: auto;
+}
+
+.typewriter h2 {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: 0.15em solid var(--raisin-black); /* The typwriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
