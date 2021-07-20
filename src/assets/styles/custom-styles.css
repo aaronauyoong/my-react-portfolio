@@ -107,7 +107,7 @@ a {
 	}
 }
 
-@media only screen and (max-width: 375) {
+@media only screen and (max-width: 375px) {
 	.hello-world h2 {
 		font-size: 20px;
 		font-weight: 400;
