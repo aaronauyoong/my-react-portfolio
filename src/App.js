@@ -32,7 +32,7 @@ function App() {
 				setCurrentPage={setCurrentPage}
 				currentPage={currentPage}
 			/>
-			<Welcome />
+			{/* <Welcome /> */}
 			<main>
 				<Router>
 					<Switch>

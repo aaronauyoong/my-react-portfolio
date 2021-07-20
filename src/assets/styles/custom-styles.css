@@ -1,16 +1,88 @@
 :root {
-    /* Main Colour Scheme generated from: https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c */
-    --lavender-blush: #F7EBEC;
-    --thistle: #DDBDD5;
-    --glossy-grape: #AC9FBB;
-    --black-coral: #59656F;
-    --raisin-black: #1D1E2C;
+	/* Main Colour Scheme generated from: https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c */
+	--lavender-blush: #f7ebec;
+	--thistle: #ddbdd5;
+	--glossy-grape: #ac9fbb;
+	--black-coral: #59656f;
+	--raisin-black: #1d1e2c;
 }
 
 main {
-    background: var(--lavender-blush);
+	background: var(--lavender-blush);
+	padding: 20px;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
+}
+
+.landing-page {
+	display: inline-block;
+	background-image: url("../images/homepage-webdev.svg");
+    height: 100vh;
+	background-repeat: no-repeat;
+    align-content: end;
+
+}
+.hello-world {
+	display: flex;
+	width: fit-content;
+	padding: 10px;
+}
+
+.home-myself {
+	display: flex;
+	padding: 10px;
+}
+
+/* Animation */
+.anim-typewriter {
+	animation: typewriter 4s steps(44) 1s 1 normal both,
+		blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width: 24em;
+	}
+}
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: rgba(255, 255, 255, 0.75);
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
+
+.typewriter h3 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 0.15em solid var(--raisin-black); /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: 0.15em; /* Adjust as needed */
+	animation: typing 3.5s steps(50, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: var(--raisin-black);
+	}
 }
