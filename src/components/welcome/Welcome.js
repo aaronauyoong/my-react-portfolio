@@ -1,6 +1,6 @@
 import React from 'react';
-import "../assets/styles/welcome.css";
-import "../assets/styles/custom-styles.css";
+import "../../assets/styles/welcome.css";
+import "../../assets/styles/custom-styles.css";
 
 
 function Welcome() {

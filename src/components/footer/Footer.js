@@ -1,6 +1,6 @@
 import React from 'react';
-import "../assets/styles/footer.css";
-import "../assets/styles/custom-styles.css";
+import "../../assets/styles/footer.css";
+import "../../assets/styles/custom-styles.css";
 
 function Footer() {
     return (
