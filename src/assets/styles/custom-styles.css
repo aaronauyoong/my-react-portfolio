@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
 :root {
 	/* Main Colour Scheme generated from: https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c */
 	--lavender-blush: #f7ebec;
@@ -11,6 +13,8 @@ main {
 	background: var(--lavender-blush);
 	padding: 20px;
 	animation: transitionIn 0.75s;
+	height: 100vh;
+	font-family: "Roboto Mono", monospace;
 }
 
 @keyframes transitionIn {
@@ -37,15 +41,13 @@ a {
 
 .hello-world {
 	display: flex;
-	width: fit-content;
 	padding: 30px;
 	justify-content: center;
-	align-self: center;
-	align-content: center;
 }
 
 .hello-world h2 {
 	font-size: 50px;
+	font-weight: 400;
 }
 
 .home-myself {
@@ -55,7 +57,13 @@ a {
 }
 
 .myself-text {
-	font-size: 70px;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.my-job {
+	font-size: 50px;
+	font-weight: 900;
 }
 
 .home-image {
@@ -75,7 +83,7 @@ a {
 	white-space: nowrap; /* Keeps the content on a single line */
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 	letter-spacing: 0.15em; /* Adjust as needed */
-	animation: typing 3.5s steps(50, end), blink-caret 0.75s step-end infinite;
+	animation: typing 3.5s steps(60, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
@@ -96,5 +104,22 @@ a {
 	}
 	50% {
 		border-color: var(--raisin-black);
+	}
+}
+
+@media only screen and (max-width: 375) {
+	.hello-world h2 {
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	.myself-text {
+		font-size: 20px;
+		font-weight: 600;
+	}
+	
+	.my-job {
+		font-size: 20px;
+		font-weight: 900;
 	}
 }

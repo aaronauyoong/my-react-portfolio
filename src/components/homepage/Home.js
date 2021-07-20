@@ -7,15 +7,18 @@ function Home() {
 	return (
 		<section class="landing-page">
 			<div>
-				<div class="hello-world typewriter">
+				<div class="hello-world">
 					<h2> &lt; Hello World! /&gt; </h2>
 				</div>
 				<div class="home-myself">
-					<h1 class="myself-text col-lg-4">
-						I'm Aaron Au Yoong , a&nbsp;
-						<span>Web Developer</span>.
-					</h1>
-					<div class="home-image col-lg-8">
+					<h2 class="myself-text">
+						I'm Aaron Au Yoong,
+						<div class="typewriter">
+							<h2 class="my-job"> &gt;Web Developer.</h2>
+						</div>
+						
+					</h2>
+					<div class="home-image">
 						<img
 							src={HomepageWebDev}
 							alt="This is a Web Dev cartoon from unDraw"
