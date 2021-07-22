@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./components/homepage/Home";
 import Nav from "./components/nav/Nav";
-// Brainstorming to add more eye-catchy effects in the welcome/landing page in the future.
-// import Welcome from "./components/welcome/Welcome";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -17,7 +15,6 @@ function App() {
 	return (
 		<div className="react-portfolio">
 			<Nav />
-			{/* <Welcome /> */}
 			<main>
 				<Router>
 					<Switch>
