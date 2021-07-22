@@ -6,3 +6,33 @@
     --black-coral: #59656F;
     --raisin-black: #1D1E2C;
 }
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.resume-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid var(--raisin-black) 2px;
+    margin: 10px;
+}
+
+.resume-image {
+    width: 30%;
+    margin: 20px;
+}
+
+.resume-content {
+    padding: 5px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.unstyled-bullets {
+    list-style-type: none;
+}

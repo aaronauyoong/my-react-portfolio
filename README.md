@@ -1,6 +1,11 @@
-# My REACT Portfolio
+# My REACT Portfolio 
 
-This is my personal portfolio, reacted using React.
+This is my personal portfolio, created using React JS.
+
+<br>
+
+My Portfolio Link: 
+
 <br>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
