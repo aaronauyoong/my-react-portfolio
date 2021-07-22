@@ -13,7 +13,7 @@ main {
 	background: var(--lavender-blush);
 	padding: 20px;
 	animation: transitionIn 0.75s;
-	height: 100vh;
+	max-height: auto;
 	font-family: "Roboto Mono", monospace;
 }
 
@@ -31,6 +31,20 @@ main {
 
 a {
 	text-decoration: none;
+}
+
+i {
+	color: var(--raisin-black);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.react-portfolio {
+	display: flex;
+	flex-direction: column;
 }
 
 .landing-page {
@@ -107,6 +121,7 @@ a {
 	}
 }
 
+
 @media only screen and (max-width: 375px) {
 	.hello-world h2 {
 		font-size: 20px;
@@ -117,7 +132,7 @@ a {
 		font-size: 20px;
 		font-weight: 600;
 	}
-	
+
 	.my-job {
 		font-size: 20px;
 		font-weight: 900;

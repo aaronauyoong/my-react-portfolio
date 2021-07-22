@@ -6,15 +6,20 @@ function Footer() {
     return (
         <section class="footer">
             <div>
-                <div class="footer-header">
+                {/* <div class="footer-header">
                     <h2>LET'S CONNECT!</h2>    
                 </div>
                 <div class="footer-content">
                     <p>Keen on working together? Have any questions? Feel free to send an email, and I will respond as soon as I can.</p>
                     <a href="mailto:auyoong.aaron@gmail.com" class="contact-btn">E M A I L</a>
-                </div>
+                </div> */}
                 <div class="credits">
                     <p>Aaron Au Yoong Copyright (c) 2021-Present. All rights reserved. </p>
+                </div>
+                <div class="icon-links">
+                    <a href="github.com/aaronauyoong"><i class="fab fa-github"></i></a>
+                    <a href="linkedin.com/aaronauyoong"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:auyoong.aaron@gmail.com"><i class="fas fa-envelope-square"></i></a>
                 </div>
             </div>         
         </section>

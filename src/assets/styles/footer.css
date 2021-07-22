@@ -11,8 +11,17 @@ h2, p, a {
     text-align: center;
 }
 
-a {
+/* a {
     color: var(--lavender-blush);
+    font-size: 20px;
+    margin: 30px;
+} */
+
+i {
+    color: var(--raisin-black);
+    font-size: 20px;
+    margin: 20px;
+    font-size: 30px;
 }
 
 .footer {
@@ -22,7 +31,7 @@ a {
     padding: 30px;
     text-align: center;
     justify-content: center;
-    
+    margin-top: auto;
 }
 
 .footer-header {
@@ -37,18 +46,9 @@ a {
     margin: 5px;
 }
 
-.contact-btn {
-    background-color: var(--raisin-black);
-    color: var(--lavender-blush);
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.contact-btn:hover{
-    color: var(--lavender-blush);
-    cursor: pointer;
+.icon-links {
+    color: var(--raisin-black);
+    font-size: 30px;
 }
 
 .credits {
