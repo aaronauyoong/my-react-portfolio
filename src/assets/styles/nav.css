@@ -12,6 +12,7 @@
     color: var(--lavender-blush);
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
 }
 
 .nav-btn {
