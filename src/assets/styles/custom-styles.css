@@ -15,7 +15,18 @@ main {
 	animation: transitionIn 0.75s;
 	max-height: auto;
 	font-family: "Roboto Mono", monospace;
+	flex: 1 1 auto;
 }
+
+header, footer {
+	flex: 0 1 auto;
+}
+
+html, body, #root, .react-portfolio {
+	height: 100%;
+}
+
+
 
 @keyframes transitionIn {
 	from {
@@ -46,6 +57,9 @@ img {
 	display: flex;
 	flex-direction: column;
 }
+
+
+
 
 .landing-page {
 	/* background-image: url("../images/homepage-webdev.svg"); */

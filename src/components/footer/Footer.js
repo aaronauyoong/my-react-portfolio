@@ -4,7 +4,7 @@ import "../../assets/styles/custom-styles.css";
 
 function Footer() {
     return (
-        <section class="footer">
+        <footer class="footer">
             <div>
                 <div class="credits">
                     <p>Aaron Au Yoong Copyright (c) 2021-Present. All rights reserved. </p>
@@ -15,7 +15,7 @@ function Footer() {
                     <a href="mailto:auyoong.aaron@gmail.com"><i class="fas fa-envelope-square"></i></a>
                 </div>
             </div>         
-        </section>
+        </footer>
     )
 }
 
