@@ -6,3 +6,41 @@
     --black-coral: #59656F;
     --raisin-black: #1D1E2C;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid var(--raisin-black) 2px;
+    margin: 10px;
+}
+
+.contact-image {
+    width: 30%;
+}
+
+.contact-content {
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact-btn {
+    background-color: var(--raisin-black);
+    color: var(--lavender-blush);
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-btn:hover{
+    color: var(--lavender-blush);
+    cursor: pointer;
+}
