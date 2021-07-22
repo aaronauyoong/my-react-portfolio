@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./components/homepage/Home";
 import Nav from "./components/nav/Nav";
-import Welcome from "./components/welcome/Welcome";
+// import Welcome from "./components/welcome/Welcome";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -12,26 +12,10 @@ import Footer from "./components/footer/Footer";
 import "./assets/styles/custom-styles.css";
 
 function App() {
-	const [pages] = useState([
-		{ name: "About" },
-		{ name: "Portfolio" },
-		{ name: "Resume" },
-		{ name: "Contact" },
-	]);
-
-	const [currentPage, setCurrentPage] = useState(pages[0]);
-
-	useEffect(() => {
-		document.title = `aaronauyoong :: ${currentPage.name}`;
-	});
 
 	return (
 		<div className="react-portfolio">
-			<Nav
-				pages={pages}
-				setCurrentPage={setCurrentPage}
-				currentPage={currentPage}
-			/>
+			<Nav />
 			{/* <Welcome /> */}
 			<main>
 				<Router>
