@@ -7,8 +7,7 @@ import TechBlog from "../../assets/images/tech-blog-screenshot.png";
 import NoteTaker from "../../assets/images/note-taker.png";
 import WeatherApp from "../../assets/images/weatherforecastapp.png";
 import EmployeeTracker from "../../assets/images/employee-tracker-demo.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function Portfolio() {

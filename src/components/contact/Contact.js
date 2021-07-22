@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../assets/styles/contact.css";
 import "../../assets/styles/custom-styles.css";
 import ContactImg from "../../assets/images/contact-me.svg";
