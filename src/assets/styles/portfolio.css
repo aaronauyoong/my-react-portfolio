@@ -1,0 +1,132 @@
+:root {
+	/* Main Colour Scheme generated from: https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c */
+	--lavender-blush: #f7ebec;
+	--thistle: #ddbdd5;
+	--glossy-grape: #ac9fbb;
+	--black-coral: #59656f;
+	--raisin-black: #1d1e2c;
+}
+
+#projects {
+	width: fit-content;
+	/* To adjust the height as well */
+	height: fit-content;
+}
+
+/* Card classes to display my work on my portfolio */
+.project-card {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    align-items: center;
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+}
+
+/* card section for app name and image */
+.app-main {
+    width: 60%;
+	padding: 10px;
+	text-align: left;
+	order: 1;
+	line-height: 1.6;
+}
+
+.featured {
+	display: inline-block;
+	text-align: left;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: var(--raisin-black);
+	color: var(--thistle);
+	border-radius: 5px;
+}
+
+/* Image Styling */
+
+.app-image {
+    object-fit: cover;
+	cursor: pointer;
+    margin-top: 10px;
+}
+
+.featured-image {
+	object-fit: cover;
+}
+
+/* Just Colorize Container */
+.img-colorize img {
+	filter: grayscale(100%);
+}
+
+.img-colorize:hover img {
+	transition: 0.2s;
+	filter: grayscale(0);
+}
+
+/* card section for description */
+.app-info {
+    width: 40%;
+	padding: 40px;
+	order: 2;
+	text-align: center;
+	justify-content: center;
+}
+
+.app-description {
+	font-size: medium;
+	width: 100%;
+    min-width: 200px;
+	background-color: var(--raisin-black);
+	color: var(--glossy-grape);
+	padding: 20px;
+    line-height: 1.6;
+	border-radius: 5px;
+	box-shadow: 2px 2px var(--black-coral), 2.5px 2.5px rgb(190, 171, 171),
+		3px 3px rgb(192, 170, 170), 4px 4px rgb(206, 181, 181);
+}
+
+.language-list {
+	margin: 10px;
+}
+
+.language {
+	display: inline-block;
+    background-color: var(--raisin-black);
+	color: var(--thistle);
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: medium;
+	text-align: center;
+}
+
+
+/* Notable Project Styling */
+.other-projects {
+    margin: 30px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-solo {
+    margin: 30px;
+    text-align: center;
+    width: 40%;
+
+}
+
+.small-header {
+    padding: 5px;
+}
+
+.small-desc {
+    padding: 5px;
+    line-height: 1.6;
+}
