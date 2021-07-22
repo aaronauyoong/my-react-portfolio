@@ -4,7 +4,7 @@ This is my personal portfolio, created using React JS.
 
 <br>
 
-My Portfolio Link: 
+Check out my portfolio [here](https://aaronauyoong.netlify.app/)!
 
 <br>
 
