@@ -84,10 +84,8 @@ function Resume() {
 					<div class="resume-section col-lg-6">
 						<h3>Locally Popular MVC Framework</h3>
 						<ul class="unstyled-bullets">
-							<li>C#/ASP.NET</li>
-							<li>Python/Django</li>
-							<li>Java/Spring</li>
-							<li>PHP/Laravel</li>
+							<li>Django</li>
+							<li>Laravel</li>
 						</ul>
 					</div>
 					<div class="resume-section col-lg-6">
