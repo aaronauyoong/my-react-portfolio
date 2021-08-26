@@ -26,7 +26,7 @@ i {
 
 .footer {
     display: flex;
-    background-color: var(--thistle);
+    background-color: var(--lavender-blush);
     color: var(--raisin-black);
     padding: 30px;
     text-align: center;

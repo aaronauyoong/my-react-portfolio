@@ -2,6 +2,7 @@
 
 :root {
 	/* Main Colour Scheme generated from: https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c */
+	--pure-white: white;
 	--lavender-blush: #f7ebec;
 	--thistle: #ddbdd5;
 	--glossy-grape: #ac9fbb;
@@ -10,7 +11,7 @@
 }
 
 main {
-	background: var(--lavender-blush);
+	background: var(--pure-white);
 	padding: 20px;
 	animation: transitionIn 0.75s;
 	max-height: auto;
