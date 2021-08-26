@@ -18,62 +18,27 @@ function Resume() {
 				</div>
 				<div class="resume-content row">
 					<div class="resume-section col-lg-6">
-						<h3>Browser Based Technologies</h3>
+						<h3>Here are some technologies I've worked with recently:</h3>
 						<ul class="unstyled-bullets">
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-							<li>jQuery</li>
-							<li>Responsive Design</li>
+							<li>JavaScript (ES6+)</li>
+							<li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
 							<li>Bootstrap</li>
 							<li>Handlebars</li>
-							<li>Local Storage, Session Storage, IndexedDB</li>
-							<li>React.js</li>
-						</ul>
-					</div>
-                    <div class="resume-section col-lg-6">
-						<h3>Server-Side Development</h3>
-						<ul class="unstyled-bullets">
-							<li>Express</li>
-							<li>User Authentication</li>
-							<li>Sequelize</li>
-							<li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-						</ul>
-					</div>
-                    <div class="resume-section col-lg-6">
-						<h3>Quality, Performance and Accessibility</h3>
-						<ul class="unstyled-bullets">
-							<li>Unit Testing</li>
-							<li>Google Lighthouse</li>
-							<li>Webpack</li>
-							<li>PWAs (Progressive Web Apps)</li>
-							<li>Lazy Loading</li>
-							<li>Service Workers</li>
-							<li>Semantic HTML</li>
+							<li>MySQL</li>
 						</ul>
 					</div>
 					<div class="resume-section col-lg-6">
-						<h3>Agile Development</h3>
+						<h3>Trained in Agile Development:</h3>
 						<ul class="unstyled-bullets">
 							<li>Kanban, Project Management</li>
 							<li>Issues</li>
 							<li>User Stories</li>
 							<li>Sprints</li>
 							<li>Standup</li>
-							<li>Retros</li>
 						</ul>
 					</div>
 					<div class="resume-section col-lg-6">
-						<h3>Computer Science applied to JavaScript</h3>
-						<ul class="unstyled-bullets">
-							<li>Design Patterns</li>
-							<li>Data Structures</li>
-							<li>Algorithms</li>
-							<li>Big O Notation</li>
-						</ul>
-					</div>
-					<div class="resume-section col-lg-6">
-						<h3>Deployment</h3>
+						<h3>Familiar With Deployment Platforms:</h3>
 						<ul class="unstyled-bullets">
 							<li>Heroku</li>
 							<li>MongoAtlas</li>
@@ -82,17 +47,10 @@ function Resume() {
 						</ul>
 					</div>
 					<div class="resume-section col-lg-6">
-						<h3>Locally Popular MVC Framework</h3>
+						<h3>Familiar With Popular MVC Frameworks:</h3>
 						<ul class="unstyled-bullets">
 							<li>Django</li>
 							<li>Laravel</li>
-						</ul>
-					</div>
-					<div class="resume-section col-lg-6">
-						<h3>Databases</h3>
-						<ul class="unstyled-bullets">
-							<li>MySQL</li>
-							<li>MongoDB</li>
 						</ul>
 					</div>
 				</div>
