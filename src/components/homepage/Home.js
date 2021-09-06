@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/styles/custom-styles.css';
-import HomepageWebDev from '../../assets/images/homepage-webdev.svg';
+// import HomepageWebDev from '../../assets/images/homepage-webdev.svg';
 // import Typewriter from "typewriter-effect";
 
 function Home() {
