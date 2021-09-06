@@ -19,8 +19,8 @@ function Nav() {
                 <a href="/about" class="nav-btn">
                     01. About
                 </a>
-                <a href="/portfolio" class="nav-btn">
-                    02. Portfolio
+                <a href="/projects" class="nav-btn">
+                    02. Projects
                 </a>
                 <a href="/contact" class="nav-btn">
                     03. Contact

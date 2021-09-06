@@ -10,7 +10,7 @@ import EmployeeTracker from "../../assets/images/employee-tracker-demo.png";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-function Portfolio() {
+function Projects() {
     return (
         <section>
             <div class="main-container" id="projects">
@@ -150,4 +150,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio;
+export default Projects;

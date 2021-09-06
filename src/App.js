@@ -5,7 +5,7 @@ import Home from "./components/homepage/Home";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
-import Portfolio from "./components/portfolio/Portfolio";
+import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Footer from "./components/footer/Footer";
 import "./assets/styles/custom-styles.css";
@@ -20,7 +20,7 @@ function App() {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/about" component={About} />
-						<Route exact path="/portfolio" component={Portfolio} />
+						<Route exact path="/projects" component={Projects} />
 						<Route exact path="/resume" component={Resume} />
 						<Route exact path="/contact" component={Contact} />
 					</Switch>
