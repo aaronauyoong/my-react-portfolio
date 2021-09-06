@@ -1,8 +1,43 @@
 :root {
     /* Main Colour Scheme generated from: https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c */
+    --pure-white: white;
     --lavender-blush: #F7EBEC;
     --thistle: #DDBDD5;
     --glossy-grape: #AC9FBB;
     --black-coral: #59656F;
     --raisin-black: #1D1E2C;
+}
+
+.about-me-container {
+    padding: 30px;
+}
+
+.about-me-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.about-me-image img {
+    border-radius: 50px;
+}
+
+.about-me {
+    padding-bottom: 10px;
+}
+
+.about-me span {
+    color: var(--lavender-blush);
+}
+
+.about-me h2 {
+    color: var(--pure-white);
+}
+
+.main-paragraph {
+    color: var(--thistle);
+    text-align: left;
 }

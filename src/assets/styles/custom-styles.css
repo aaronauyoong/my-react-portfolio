@@ -30,6 +30,8 @@ body,
 .react-portfolio {
     height: 100%;
 	color: var(--lavender-blush);
+	background: var(--black-coral);
+
 }
 
 @keyframes transitionIn {

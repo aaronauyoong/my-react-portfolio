@@ -8,22 +8,25 @@ function Nav() {
         <header>
             <nav class="nav-bar">
                 <div class="square logo">
-                    <img src={Logo} alt="This is the website logo." class="lav-border"/>
+                    <a href="/">
+                        <img
+                            src={Logo}
+                            alt="This is the website logo."
+                            class="lav-border"
+                        />
+                    </a>
                 </div>
-                <a href="/" class="nav-btn">
-                    Home
-                </a>
                 <a href="/about" class="nav-btn">
-                    About
+                    01. About
                 </a>
                 <a href="/portfolio" class="nav-btn">
-                    Portfolio
+                    02. Portfolio
                 </a>
                 <a href="/contact" class="nav-btn">
-                    Contact
+                    03. Contact
                 </a>
                 <a href="/resume" class="nav-btn">
-                    Resume
+                    04. Resume
                 </a>
             </nav>
         </header>
