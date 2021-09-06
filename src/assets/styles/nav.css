@@ -11,13 +11,11 @@ header {
     width: 100%;
 }
 
-
 .nav-bar {
     background-color: var(--black-coral);
     color: var(--lavender-blush);
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
     justify-content: space-between;
 }
 
