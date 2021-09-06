@@ -8,7 +8,7 @@ function Contact() {
 		<section>
             <div class="contact">
                 <div class="contact-header">
-                    <h2>LET'S CONNECT!</h2>    
+                    <h2><span class="title-number">03.</span> Contact</h2>    
                 </div>
                 <div class="contact-img">
                     <img src={ContactImg} alt="Contact me cartoon" />

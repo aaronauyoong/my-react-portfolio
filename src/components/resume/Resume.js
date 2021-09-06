@@ -9,7 +9,7 @@ function Resume() {
 		<section>
 			<div class="resume">
 				<div class="resume-header">
-					<h2>My Resume</h2>
+					<h2><span class="title-number">04.</span> Resume</h2>
 				</div>
 				<div class="resume-img">
 					<a href={MyResume}>

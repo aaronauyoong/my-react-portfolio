@@ -15,7 +15,7 @@ function Projects() {
         <section>
             <div class="main-container" id="projects">
                 <div class="container-header">
-                    <h2>My <span class="underline">Projects</span></h2>
+                    <h2><span class="title-number">02.</span> Projects</h2>
                 </div>
 
                 {/* FEATURED PROJECT 1 */}
