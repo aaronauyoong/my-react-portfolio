@@ -18,7 +18,7 @@
 .contact-header {
     display: flex;
     justify-content: center;
-    border-bottom: solid var(--raisin-black) 2px;
+    border-bottom: solid var(--lavender-blush) 2px;
     margin: 10px;
 }
 
