@@ -84,7 +84,6 @@ i {
 .my-name {
 	color: var(--lavender-blush);
 	text-align: left;
-
 }
 
 .myself-text {
@@ -100,12 +99,6 @@ i {
 	font-weight: 600;
 	color: var(--glossy-grape);
 	text-align: left;
-
-}
-
-.my-job {
-    font-size: 50px;
-    font-weight: 900;
 }
 
 .home-image {
@@ -150,20 +143,26 @@ i {
 }
 
 @media only screen and (max-width: 375px) {
-    .hello-world h2 {
+    .hello-world h4 {
         font-size: 20px;
         font-weight: 400;
     }
 
+	.my-name {
+		font-size: 15px;
+	}
+
     .myself-text {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 600;
     }
 
-    .my-job {
-        font-size: 50px;
-        font-weight: 900;
-    }
+	.create-text {
+		font-size: 30px;
+		font-weight: 600;
+		color: var(--glossy-grape);
+		text-align: left;
+	}
 }
 
 /* Image styling */
