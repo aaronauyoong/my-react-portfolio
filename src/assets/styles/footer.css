@@ -11,16 +11,10 @@ h2, p, a {
     text-align: center;
 }
 
-/* a {
-    color: var(--lavender-blush);
-    font-size: 20px;
-    margin: 30px;
-} */
-
 i {
     color: var(--raisin-black);
     font-size: 20px;
-    margin: 20px;
+    margin: 0px 20px 10px;
     font-size: 30px;
 }
 
@@ -28,22 +22,10 @@ i {
     display: flex;
     background-color: var(--lavender-blush);
     color: var(--raisin-black);
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     justify-content: center;
     margin-top: auto;
-}
-
-.footer-header {
-    display: flex;
-    justify-content: center;
-    border-bottom: solid var(--raisin-black) 2px;
-    margin: 10px;
-}
-
-.footer-content {
-    padding: 5px;
-    margin: 5px;
 }
 
 .icon-links {
@@ -52,7 +34,7 @@ i {
 }
 
 .credits {
-    padding: 10px;
+    padding-top: 10px;
     justify-content: flex-end;    
     font-size: smaller;
     font-style: italic;
