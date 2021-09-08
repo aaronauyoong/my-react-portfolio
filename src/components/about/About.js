@@ -6,14 +6,14 @@ import MyPicture from "../../assets/images/my-picture.jpg"
 function About() {
 	return (
 		<section>
-			<div class="about-me-container">
-				<div class="about-me-image">
+			<div className="about-me-container">
+				<div className="about-me-image">
 					<img src={MyPicture} alt="Portrait of Aaron Au Yoong"/>
 				</div>
-				<div class="about-me">
+				<div className="about-me">
 					<h2><span class="title-number">01.</span> About Me</h2>
 				</div>
-				<div class="main-paragraph">
+				<div className="main-paragraph">
 					<p>
 						My name is Aaron Au Yoong, and I am starting my journey as a website
 						and software developer. After various experiences over the past 2

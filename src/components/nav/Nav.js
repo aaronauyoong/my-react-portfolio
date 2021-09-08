@@ -5,34 +5,34 @@ import Logo from '../../assets/images/website-logo.png';
 
 function Nav() {
 
-    const [click, setClick] = useState(false);
+    // const [click, setClick] = useState(false);
     
-    const handleClick = () => setClick(!click);
+    // const handleClick = () => setClick(!click);
 
-    const closeMobileMenu = () => setClick(false);
+    // const closeMobileMenu = () => setClick(false);
 
     return (
         <header>
-            <nav class="nav-bar">
-                <div class="square logo">
+            <nav className="nav-bar">
+                <div className="square logo">
                     <a href="/">
                         <img
                             src={Logo}
                             alt="This is the website logo."
-                            class="lav-border"
+                            className="lav-border"
                         />
                     </a>
                 </div>
-                <a href="/about" class="nav-btn hover-underline-animation">
+                <a href="/about" className="nav-btn hover-underline-animation">
                     01. About
                 </a>
-                <a href="/projects" class="nav-btn hover-underline-animation">
+                <a href="/projects" className="nav-btn hover-underline-animation">
                     02. Projects
                 </a>
-                <a href="/contact" class="nav-btn hover-underline-animation">
+                <a href="/contact" className="nav-btn hover-underline-animation">
                     03. Contact
                 </a>
-                <a href="/resume" class="nav-btn hover-underline-animation">
+                <a href="/resume" className="nav-btn hover-underline-animation">
                     04. Resume
                 </a>
             </nav>

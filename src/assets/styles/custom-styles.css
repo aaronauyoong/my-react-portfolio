@@ -71,6 +71,17 @@ header {
 	padding: 30px;
 }
 
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-image, .home-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
 .hello-world {
     display: flex;
 	flex-wrap: wrap;
@@ -110,16 +121,11 @@ header {
 	text-align: left;
 }
 
-.home-image {
-    display: flex;
-    padding: 30px;
-}
-
-.home-image img {
-    width: 100%;
-    max-width: 100vh;
-    height: auto;
-}
+/* .home-image img {
+    object-fit: contain;
+    align-self: flex-end;
+    margin: 0;
+} */
 
 .typewriter h4 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */

@@ -7,19 +7,19 @@ import MyResume from "../../assets/pdf/my-resume.pdf";
 function Resume() {
 	return (
 		<section>
-			<div class="resume">
-				<div class="resume-header">
-					<h2><span class="title-number">04.</span> Resume</h2>
+			<div className="resume">
+				<div className="resume-header">
+					<h2><span className="title-number">04.</span> Resume</h2>
 				</div>
-				<div class="resume-img">
+				<div className="resume-img">
 					<a href={MyResume}>
 						<img src={ResumeCartoon} alt="Contact me cartoon" />
 					</a>
 				</div>
-				<div class="resume-content row">
-					<div class="resume-section col-lg-6">
+				<div className="resume-content row">
+					<div className="resume-section col-lg-6">
 						<h3>Here are some technologies I've worked with recently:</h3>
-						<ul class="unstyled-bullets">
+						<ul className="unstyled-bullets">
 							<li>JavaScript (ES6+)</li>
 							<li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
 							<li>Bootstrap</li>
@@ -27,9 +27,9 @@ function Resume() {
 							<li>MySQL</li>
 						</ul>
 					</div>
-					<div class="resume-section col-lg-6">
+					<div className="resume-section col-lg-6">
 						<h3>Trained in Agile Development:</h3>
-						<ul class="unstyled-bullets">
+						<ul className="unstyled-bullets">
 							<li>Kanban, Project Management</li>
 							<li>Issues</li>
 							<li>User Stories</li>
@@ -37,16 +37,16 @@ function Resume() {
 							<li>Standup</li>
 						</ul>
 					</div>
-					<div class="resume-section col-lg-6">
+					<div className="resume-section col-lg-6">
 						<h3>Familiar With Deployment Platforms:</h3>
-						<ul class="unstyled-bullets">
+						<ul className="unstyled-bullets">
 							<li>Heroku</li>
 							<li>MongoAtlas</li>
 							<li>Netlify</li>
 							<li>Git</li>
 						</ul>
 					</div>
-					<div class="resume-section col-lg-6">
+					<div className="resume-section col-lg-6">
 						<h3>Familiar With Popular MVC Frameworks:</h3>
 						<ul class="unstyled-bullets">
 							<li>Django</li>

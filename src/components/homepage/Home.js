@@ -1,34 +1,50 @@
 import React from 'react';
 import '../../assets/styles/custom-styles.css';
-// import HomepageWebDev from '../../assets/images/homepage-webdev.svg';
-// import Typewriter from "typewriter-effect";
+// import HomepageWebDev from '../../assets/images/web-developer.svg';
 
 function Home() {
     return (
-        <section class="landing-page">
-            <div>
+        <section className="row landing-page">
+            <div className="hero-container"
+            // style={{
+            //     backgroundImage: `url(${HomepageWebDev})`,
+            //     backgroundPosition: `right -15px`,
+            //     backgroundRepeat: 'no-repeat',
+            //     width: '100vw',
+            //     alignSelf: 'right',
+            //     justifyContent: 'flex-end',
+            //     textAlign: 'right',
+            //     alignItems: 'right'
+
+            // }}
+            >
                 {/* <div class="home-image">
                     <img
                         src={HomepageWebDev}
                         alt="This is a Web Dev cartoon from unDraw"
                     ></img>
                 </div> */}
-                <div class="hello-world">
-                    <div class="typewriter">
-                        <h4> &lt; Hello World! /&gt;</h4>
+                <div className="home-content">
+                    <div className="hello-world">
+                        <div className="typewriter">
+                            <h4> &lt; Hello World! /&gt;</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="home-myself">
-                    <p class="my-name">My name is</p>
-                    <h2 class="myself-text">Aaron Au Yoong.</h2>
-                    <h3 class="create-text">I create things for the web.</h3>
-                </div>
-                <div class="home-summary">
-                    <p class="summary-text">
-                        I am a full-stack web developer specialising in building
-                        (and occasionally designing) web applications. I am
-                        currently looking for opportunities.
-                    </p>
+                    <div className="home-myself">
+                        <p className="my-name">My name is</p>
+                        <h2 className="myself-text">Aaron Au Yoong.</h2>
+                        <h3 className="create-text">
+                            I create things for the web.
+                        </h3>
+                    </div>
+                    <div className="home-summary">
+                        <p className="summary-text">
+                            I am a full-stack web developer specialising in
+                            building (and occasionally designing) web
+                            applications. I am currently looking for
+                            opportunities.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
