@@ -59,11 +59,16 @@ i {
     flex-direction: column;
 }
 
+header {
+    width: 100%;
+}
+
+/* LANDING PAGE */
+
 .landing-page {
     display: flex;
 	flex-wrap: wrap;
 	padding: 30px;
-
 }
 
 .hello-world {
@@ -72,13 +77,12 @@ i {
 	padding: 30px;
 }
 
-.home-myself {
+.home-myself, .home-summary {
     display: flex;
 	flex-direction: column;
     flex-wrap: wrap;
 	text-align: left;
 	padding: 30px;
-
 }
 
 .my-name {
@@ -98,6 +102,11 @@ i {
 	font-size: 50px;
 	font-weight: 600;
 	color: var(--glossy-grape);
+	text-align: left;
+}
+
+.summary-text {
+	width: 40vw;
 	text-align: left;
 }
 
@@ -143,6 +152,23 @@ i {
 }
 
 @media only screen and (max-width: 375px) {
+	main, .landing-page {
+		padding: 0;
+	}
+
+	.nav-bar {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 40vw;
+	}
+
+	.hello-world, .home-myself, .home-summary {
+		padding-left: 30px;
+		padding-bottom: 15px;
+	}
+
     .hello-world h4 {
         font-size: 20px;
         font-weight: 400;
@@ -162,6 +188,10 @@ i {
 		font-weight: 600;
 		color: var(--glossy-grape);
 		text-align: left;
+	}
+
+	.summary-text {
+		width: 50vw;
 	}
 }
 

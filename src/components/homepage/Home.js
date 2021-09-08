@@ -23,6 +23,13 @@ function Home() {
                     <h2 class="myself-text">Aaron Au Yoong.</h2>
                     <h3 class="create-text">I create things for the web.</h3>
                 </div>
+                <div class="home-summary">
+                    <p class="summary-text">
+                        I am a full-stack web developer specialising in building
+                        (and occasionally designing) web applications. I am
+                        currently looking for opportunities.
+                    </p>
+                </div>
             </div>
         </section>
     );
