@@ -23,16 +23,16 @@ function Nav() {
                         />
                     </a>
                 </div>
-                <a href="/about" class="nav-btn">
+                <a href="/about" class="nav-btn hover-underline-animation">
                     01. About
                 </a>
-                <a href="/projects" class="nav-btn">
+                <a href="/projects" class="nav-btn hover-underline-animation">
                     02. Projects
                 </a>
-                <a href="/contact" class="nav-btn">
+                <a href="/contact" class="nav-btn hover-underline-animation">
                     03. Contact
                 </a>
-                <a href="/resume" class="nav-btn">
+                <a href="/resume" class="nav-btn hover-underline-animation">
                     04. Resume
                 </a>
             </nav>
