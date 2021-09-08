@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../assets/styles/nav.css';
 import '../../assets/styles/custom-styles.css';
 import Logo from '../../assets/images/website-logo.png';
 
 function Nav() {
+
+    const [click, setClick] = useState(false);
+    
+    const handleClick = () => setClick(!click);
+
+    const closeMobileMenu = () => setClick(false);
+
     return (
         <header>
             <nav class="nav-bar">
