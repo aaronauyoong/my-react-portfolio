@@ -10,31 +10,62 @@
 .resume {
     display: flex;
     flex-direction: column;
-    max-width: 100vw;
     text-align: center;
     justify-content: center;
     margin-top: auto;
 }
 
 .resume-header {
-    display: flex;
-    justify-content: center;
     border-bottom: solid var(--lavender-blush) 2px;
     margin: 10px;
 }
 
-.resume-image {
-    width: 30%;
-    margin: 20px;
+.resume-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 30px;
 }
 
-.resume-content {
-    padding: 5px;
-    padding-top: 50px;
-    margin: 20px;
-    flex-wrap: wrap;
+.resume-img, .resume-summary {
+    width: 50%;
+    padding-top: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
 }
 
 .unstyled-bullets {
     list-style-type: none;
+}
+
+.download-resume {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    font-weight: 900;
+    background-color: var(--raisin-black);
+    text-decoration: none;
+    color: var(--lavender-blush);
+}
+
+.download-resume:hover {
+    cursor: pointer;
+    color: var(--lavender-blush);
+    background-color: var(--glossy-grape);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 375px) {
+    .resume-content {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .resume-summary {
+        width: 100vw;
+    }
 }
