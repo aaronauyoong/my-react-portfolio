@@ -14,7 +14,7 @@ function Resume() {
             </div>
             <div className="resume-content">
                 <div className="resume-img">
-                        <img src={ResumeCartoon} alt="Contact me cartoon" />
+                    <img src={ResumeCartoon} alt="Contact me cartoon" />
                 </div>
                 <div className="resume-summary">
                     <div className="resume-section">
@@ -35,7 +35,11 @@ function Resume() {
                             <li>GraphQL</li>
                             <li>MySQL</li>
                         </ul>
-						<a href={MyResume} className="download-resume">Click here to download my resume!</a>
+                        <button className="btn" type="button">
+                            <a href={MyResume} className="download-resume">
+                                Download my resume
+                            </a>
+                        </button>
                     </div>
                 </div>
             </div>
