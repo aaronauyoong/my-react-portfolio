@@ -4,9 +4,8 @@ import '../../assets/styles/custom-styles.css';
 import Logo from '../../assets/images/website-logo.png';
 
 function Nav() {
-
     // const [click, setClick] = useState(false);
-    
+
     // const handleClick = () => setClick(!click);
 
     // const closeMobileMenu = () => setClick(false);
@@ -26,10 +25,16 @@ function Nav() {
                 <a href="/about" className="nav-btn hover-underline-animation">
                     01. About
                 </a>
-                <a href="/projects" className="nav-btn hover-underline-animation">
+                <a
+                    href="/projects"
+                    className="nav-btn hover-underline-animation"
+                >
                     02. Projects
                 </a>
-                <a href="/contact" className="nav-btn hover-underline-animation">
+                <a
+                    href="/contact"
+                    className="nav-btn hover-underline-animation"
+                >
                     03. Contact
                 </a>
                 <a href="/resume" className="nav-btn hover-underline-animation">
