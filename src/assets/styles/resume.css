@@ -12,11 +12,10 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 30px;
 }
 
 .resume-header {
-    border-bottom: solid var(--lavender-blush) 2px;
     margin: 10px;
 }
 

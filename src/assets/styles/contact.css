@@ -19,7 +19,6 @@
 .contact-header {
     display: flex;
     justify-content: center;
-    border-bottom: solid var(--lavender-blush) 2px;
     margin: 10px;
 }
 
