@@ -8,8 +8,8 @@
     --raisin-black: #1D1E2C;
 }
 
-.about-me-container {
-    padding: 30px;
+.about-me {
+    margin-top: 30px;
 }
 
 .about-me-image {
@@ -37,7 +37,7 @@
     color: var(--pure-white);
 }
 
-.main-paragraph {
+.about-me-content {
     color: var(--thistle);
     text-align: left;
 }
