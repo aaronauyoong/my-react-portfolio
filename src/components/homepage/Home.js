@@ -1,29 +1,11 @@
 import React from 'react';
 import '../../assets/styles/custom-styles.css';
-// import HomepageWebDev from '../../assets/images/web-developer.svg';
+import HomepageWebDev from '../../assets/images/web-developer.svg';
 
 function Home() {
     return (
-        <section className="row landing-page">
-            <div className="hero-container"
-            // style={{
-            //     backgroundImage: `url(${HomepageWebDev})`,
-            //     backgroundPosition: `right -15px`,
-            //     backgroundRepeat: 'no-repeat',
-            //     width: '100vw',
-            //     alignSelf: 'right',
-            //     justifyContent: 'flex-end',
-            //     textAlign: 'right',
-            //     alignItems: 'right'
-
-            // }}
-            >
-                {/* <div class="home-image">
-                    <img
-                        src={HomepageWebDev}
-                        alt="This is a Web Dev cartoon from unDraw"
-                    ></img>
-                </div> */}
+        <section className="landing-page">
+            <div className="hero-container">
                 <div className="home-content">
                     <div className="hello-world">
                         <div className="typewriter">
@@ -45,6 +27,12 @@ function Home() {
                             opportunities.
                         </p>
                     </div>
+                </div>
+                <div class="home-image">
+                    <img
+                        src={HomepageWebDev}
+                        alt="This is a Web Dev cartoon from unDraw"
+                    ></img>
                 </div>
             </div>
         </section>

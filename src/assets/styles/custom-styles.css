@@ -17,6 +17,7 @@ main {
     max-height: auto;
     font-family: 'Roboto Mono', monospace;
     flex: 1 1 auto;
+    margin-top: 50px;
 }
 
 header,
@@ -74,12 +75,23 @@ header {
 .hero-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px;
 }
 
 .home-image, .home-content {
     display: flex;
     flex-wrap: wrap;
-    width: 70vw;
+}
+
+.home-content {
+    width: 65%;
+}
+
+.home-image {
+    width: 35%;
+
 }
 
 .hello-world {
@@ -121,11 +133,6 @@ header {
 	text-align: left;
 }
 
-/* .home-image img {
-    object-fit: contain;
-    align-self: flex-end;
-    margin: 0;
-} */
 
 .typewriter h4 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -169,6 +176,18 @@ header {
 		flex-wrap: wrap;
 		width: 40vw;
 	}
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .home-image {
+        width: 100%;
+    }
+
+    .home-content {
+        width: 100%;
+    }
 
 	.hello-world, .home-myself, .home-summary {
 		padding-left: 30px;
