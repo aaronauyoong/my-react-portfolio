@@ -2,6 +2,7 @@ import React from 'react';
 import '../../assets/styles/projects.css';
 import '../../assets/styles/custom-styles.css';
 
+import AfflatusMusic from '../../assets/images/afflatus-music.png';
 import GamersHideout from '../../assets/images/gamers-hideout-screenshot.png';
 import MarvelSuperhero from '../../assets/images/marvel-superhero-locator-screenshot.png';
 
@@ -9,6 +10,47 @@ const FeaturedProjects = () => {
     return (
         <div>
             {/* FEATURED PROJECT 1 */}
+            <section className="featured-project">
+                <div className="app-main">
+                    <div>
+                        <h6 className="featured">FEATURED</h6>
+                    </div>
+                    <h2 className="app-header">
+                        Afflatus Music{' '}
+                        <a
+                            className="github-link"
+                            href="https://github.com/aaronauyoong/afflatus-music"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </h2>
+                    <a
+                        className="img-colorize"
+                        href="https://afflatus-music.herokuapp.com/"
+                    >
+                        <img
+                            src={AfflatusMusic}
+                            className="app-image featured-image"
+                            alt="Afflatus Music web app"
+                        />
+                    </a>
+                </div>
+                <div className="app-info">
+                    <p className="app-description">
+                        Afflatus Music is a web application that allows users to
+                        listen to music, view their Spotify playlists, and share
+                        them as posts with other users.
+                    </p>
+                    <div className="language-list">
+                        <p className="language">JavaScript</p>
+                        <p className="language">React JS</p>
+                        <p className="language">Apollo</p>
+                        <p className="language">GraphQL</p>
+                        <p className="language">MongoDB</p>
+                    </div>
+                </div>
+            </section>
+            {/* FEATURED PROJECT 2 */}
             <section className="featured-project">
                 <div className="app-main">
                     <div>
@@ -51,7 +93,7 @@ const FeaturedProjects = () => {
                     </div>
                 </div>
             </section>
-            {/* FEATURED PROJECT 2 */}
+            {/* FEATURED PROJECT 3 */}
             <section className="featured-project">
                 <div className="app-main">
                     <div>
@@ -61,14 +103,14 @@ const FeaturedProjects = () => {
                         Marvel Superhero Locator{' '}
                         <a
                             className="github-link"
-                            href="https://github.com/aaronauyoong/TeamProject-Gamers-Hideout-ReviewSite"
+                            href="https://github.com/aaronauyoong/TeamProject-Marvel-Superhero-Locator"
                         >
                             <i class="fab fa-github"></i>
                         </a>
                     </h2>
                     <a
                         className="img-colorize"
-                        href="https://aaronauyoong.github.io/TeamProject-Marvel-Superhero-Locator/"
+                        href="https://korolyovalara.github.io/TeamProject-Marvel-Superhero-Locator/"
                     >
                         <img
                             src={MarvelSuperhero}
