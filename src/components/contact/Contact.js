@@ -18,13 +18,17 @@ function Contact() {
                 <div className="contact-summary">
                     <p>
                         Keen on working together? Have any questions? Feel free
-                        to send an email, and I will respond as soon as I can.
+                        to send an email to
+                        {' '}<span className="emphasise-text">
+                            auyoong.aaron@gmail.com
+                        </span>
+                        , and I will respond as soon as I can.
                     </p>
                     <a
                         href="mailto:auyoong.aaron@gmail.com"
                         class="contact-btn"
                     >
-                        Say Hello
+                        Send an Email
                     </a>
                 </div>
             </div>

@@ -142,6 +142,17 @@ nav {
     text-align: left;
 }
 
+.emphasise-text {
+    color: var(--glossy-grape);
+    text-decoration: underline;
+}
+
+.emphasise-text:hover {
+    background-color: var(--lavender-blush);
+    color: var(--black-coral);
+    border-radius: 2px;
+}
+
 .typewriter h4 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid var(--lavender-blush); /* The typewriter cursor */
