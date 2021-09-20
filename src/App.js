@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/homepage/Home";
-import Nav from "./components/nav/Nav";
+import Header from "./components/Header";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Projects from "./components/projects/Projects";
@@ -13,7 +13,7 @@ function App() {
 
 	return (
 		<div className="react-portfolio">
-			<Nav />
+			<Header />
 			<main>
 				<Router>
 					<Switch>
