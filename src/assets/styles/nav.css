@@ -43,12 +43,14 @@
     flex-wrap: wrap;
     flex-direction: row;
     padding-right: 10px;
+    margin-right: 10px;
     justify-self: center;
     justify-content: center;
     text-align: center;
     align-self: center;
     align-content: center;
     align-items: center;
+    border-radius: 10px;
     -webkit-animation: fadeIn ease-in-out 0.5s both;
     animation: fadeIn ease-in-out 0.5s both;
 }

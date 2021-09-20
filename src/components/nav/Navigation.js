@@ -11,7 +11,9 @@ function Navigation() {
 
     if (showMenu) {
         menu = (
-            <div className="fixed top-0 left-0 w-4/5 h-full z-50 shadow">
+            <div
+                className="menu-bar shadow"
+            >
                 <a href="/about" className="nav-btn hover-underline-animation">
                     01. About
                 </a>
@@ -36,13 +38,14 @@ function Navigation() {
 
     return (
         <nav>
+            {menu}
             <span className="text-xl">
                 <FontAwesomeIcon
+                    className="menu-icon"
                     icon={faBars}
                     onClick={() => setShowMenu(!showMenu)}
                 />
             </span>
-            { menu }
         </nav>
     );
 }
