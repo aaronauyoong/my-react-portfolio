@@ -11,6 +11,7 @@ function Nav() {
     // const closeMobileMenu = () => setClick(false);
 
     return (
+        <header>
             <nav className="nav-bar">
                 <div className="square logo">
                     <a href="/">
@@ -40,6 +41,7 @@ function Nav() {
                     04. Resume
                 </a>
             </nav>
+        </header>
     );
 }
 

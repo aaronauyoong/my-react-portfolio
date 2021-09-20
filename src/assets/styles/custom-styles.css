@@ -61,17 +61,7 @@ i {
 }
 
 header {
-    display: flex;
-    width: 100vw;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    justify-self: center;
-    text-align: right;
-    align-items: center;
-    width: 80%;
+    width: 100%;
 }
 
 /* LANDING PAGE */
@@ -175,29 +165,17 @@ nav {
 }
 
 @media only screen and (max-width: 375px) {
-    header {
-        max-width: 100vw;
-        height: 30%;
-    }
-
-
 	main, .landing-page {
 		padding: 0;
-        max-width: 100vw;
 	}
 
 	.nav-bar {
-		flex-direction: row;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        align-self: center;
-        padding: 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 40vw;
 	}
-
-    .logo {
-        padding-bottom: 10px;
-    }
 
     .hero-container {
         flex-direction: column;
@@ -207,19 +185,12 @@ nav {
         width: 100%;
     }
 
-    .hero-container {
-        max-width: fit-content;
-        margin: 10px;
-        align-items: center;
-    }
-
     .home-content {
         width: 100%;
-        padding: 0px;
     }
 
 	.hello-world, .home-myself, .home-summary {
-		padding-left: 5px;
+		padding-left: 30px;
 		padding-bottom: 15px;
 	}
 
@@ -247,10 +218,6 @@ nav {
 	.summary-text {
 		width: 50vw;
 	}
-
-    .home-image {
-        width: 80%;
-    }
 }
 
 /* IMAGE STYLING */
