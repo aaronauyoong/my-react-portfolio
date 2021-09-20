@@ -62,7 +62,16 @@ i {
 
 header {
     display: flex;
-    width: 100%;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    justify-self: center;
+    text-align: right;
+    align-items: center;
+    width: 80%;
 }
 
 /* LANDING PAGE */
@@ -168,6 +177,7 @@ header {
 @media only screen and (max-width: 375px) {
     header {
         max-width: 100vw;
+        height: 30%;
     }
 
 
@@ -177,12 +187,17 @@ header {
 	}
 
 	.nav-bar {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		width: 40vw;
+		flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        padding: 0px;
 	}
+
+    .logo {
+        padding-bottom: 10px;
+    }
 
     .hero-container {
         flex-direction: column;
