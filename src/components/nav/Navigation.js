@@ -8,19 +8,29 @@ function Navigation() {
     const [showMenu, setShowMenu] = useState(false);
 
     let menu;
-    let menuMask;
 
     if (showMenu) {
         menu = (
-            <div className="fixed bg-white top-0 left-0 w-4/5 h-full z-50 shadow">
-                This is the menu
+            <div className="fixed top-0 left-0 w-4/5 h-full z-50 shadow">
+                <a href="/about" className="nav-btn hover-underline-animation">
+                    01. About
+                </a>
+                <a
+                    href="/projects"
+                    className="nav-btn hover-underline-animation"
+                >
+                    02. Projects
+                </a>
+                <a
+                    href="/contact"
+                    className="nav-btn hover-underline-animation"
+                >
+                    03. Contact
+                </a>
+                <a href="/resume" className="nav-btn hover-underline-animation">
+                    04. Resume
+                </a>
             </div>
-        );
-        menuMask = (
-            <div
-                className="bg-black fixed top-0 left-0 w-full h-full z-50"
-                onClick={() => setShowMenu(false)}
-            ></div>
         );
     }
 
@@ -32,8 +42,7 @@ function Navigation() {
                     onClick={() => setShowMenu(!showMenu)}
                 />
             </span>
-            {menuMask}
-            {menu}
+            { menu }
         </nav>
     );
 }
