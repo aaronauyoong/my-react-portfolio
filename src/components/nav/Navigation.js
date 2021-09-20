@@ -1,27 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../assets/styles/nav.css';
 import '../../assets/styles/custom-styles.css';
-import Logo from '../../assets/images/website-logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-function Nav() {
-    // const [click, setClick] = useState(false);
+function Navigation() {
+    const [showMenu, setShowMenu] = useState(false);
 
-    // const handleClick = () => setClick(!click);
+    let menu;
 
-    // const closeMobileMenu = () => setClick(false);
-
-    return (
-        <header>
-            <nav className="nav-bar">
-                <div className="square logo">
-                    <a href="/">
-                        <img
-                            src={Logo}
-                            alt="This is the website logo."
-                            className="lav-border"
-                        />
-                    </a>
-                </div>
+    if (showMenu) {
+        menu = (
+            <div
+                className="menu-bar shadow"
+            >
                 <a href="/about" className="nav-btn hover-underline-animation">
                     01. About
                 </a>
@@ -40,9 +32,22 @@ function Nav() {
                 <a href="/resume" className="nav-btn hover-underline-animation">
                     04. Resume
                 </a>
-            </nav>
-        </header>
+            </div>
+        );
+    }
+
+    return (
+        <nav>
+            {menu}
+            <span className="text-xl">
+                <FontAwesomeIcon
+                    className="menu-icon"
+                    icon={faBars}
+                    onClick={() => setShowMenu(!showMenu)}
+                />
+            </span>
+        </nav>
     );
 }
 
-export default Nav;
+export default Navigation;
